@@ -1,5 +1,5 @@
 FROM node:18.20.5-slim
 WORKDIR /app
-RUN npm install
 ADD . /app
+RUN npm install
 CMD ["npm","run"]
